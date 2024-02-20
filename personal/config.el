@@ -1,3 +1,6 @@
+(prelude-require-package 'direnv)
+(direnv-mode)
+
 (setq cider-enrich-classpath t
       cider-repl-pop-to-buffer-on-connect nil)
 

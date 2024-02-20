@@ -3,4 +3,6 @@
 
 (set-frame-font "Berkeley Mono 14" nil t)
 
+(setq vc-follow-symlinks t)
+
 (server-start)

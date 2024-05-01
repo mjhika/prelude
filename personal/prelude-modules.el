@@ -52,12 +52,12 @@
 ;;; Vim emulation
 ;;
 ;; Enable this module if you're fond of vim's keybindings.
-(require 'prelude-evil)
+;; (require 'prelude-evil)
 
 ;;; Org-mode (a legendary productivity tool that deserves its own category)
 ;;
 ;; Org-mode helps you keep TODO lists, notes and more.
-(require 'prelude-org)
+;; (require 'prelude-org)
 
 ;;; Programming languages support
 ;;
@@ -83,13 +83,13 @@
 (require 'prelude-lsp) ;; Base setup for the Language Server Protocol
 (require 'prelude-lua)
 (require 'prelude-ocaml)
-(require 'prelude-perl)
+;; (require 'prelude-perl)
 ;; (require 'prelude-python)
 ;; (require 'prelude-racket)
 ;; (require 'prelude-ruby)
 ;; (require 'prelude-rust)
 ;; (require 'prelude-scala)
-;; (require 'prelude-scheme)
+(require 'prelude-scheme)
 (require 'prelude-shell)
 ;; (require 'prelude-scss)
 ;; (require 'prelude-ts)
